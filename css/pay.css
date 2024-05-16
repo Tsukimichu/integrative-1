@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background: #32cd32;
+    background: -webkit-linear-gradient(136deg, #32cd32 0%, rgba(18, 255, 247, 0.04) 100%);
+    background: linear-gradient(136deg, #32cd32 0%, rgba(18, 255, 247, 0.04) 100%);
+    margin-bottom: 15px;
+  
+}
+.wrapper{
+    display: contents;
+    
+}
+.hello{
+    display: flex;
+    flex-direction: row;
+}
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 9.5px 8.5px 21.5px -4px rgba(0, 0, 0, 0.73);
+-moz-box-shadow: 9.5px 8.5px 21.5px -4px rgba(0, 0, 0, 0.73);
+box-shadow: 9.5px 8.5px 21.5px -4px rgba(0, 0, 0, 0.73);
+   background-repeat: no-repeat;
+   background-position: center;
+    width: 200px;
+    height: 750px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.dashboard ul li{
+    list-style-type: none;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+.dashboard a{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(242, 244, 245);
+    width: 150px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    size: 80px;
+    -webkit-box-shadow: 9.5px 8.5px 21.5px -4px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 9.5px 8.5px 21.5px -4px rgba(0, 0, 0, 0.73);
+    box-shadow: 9.5px 8.5px 21.5px -4px rgba(0, 0, 0, 0.73);
+    
+}
+.dashboard a:hover{
+    transform: scale(1.1,1.1);
+    opacity:1;
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.bal{
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: white;
+    width: 25rem;
+    height: 5rem;
+}
+.method{
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.money{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.money img{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 3px;
+    -webkit-box-shadow: 9.5px 8.5px 21.5px -4px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 9.5px 8.5px 21.5px -4px rgba(0, 0, 0, 0.73);
+    box-shadow: 9.5px 8.5px 21.5px -4px rgba(0, 0, 0, 0.73);
+}
+.money img:hover{
+    transform: scale(1.1,1.1);
+    opacity: 1;
+}
